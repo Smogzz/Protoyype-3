@@ -1,0 +1,370 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Course Library.meta
+    - Assets/Course Library/Characters.meta
+    - Assets/Course Library/Characters/Farm.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_White.prefab.meta
+    - Assets/Course Library/Characters/Town.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_White.prefab.meta
+    - Assets/Course Library/Obstacles.meta
+    - Assets/Course Library/Obstacles/Barrel_01.prefab
+    - Assets/Course Library/Obstacles/Barrel_01.prefab.meta
+    - Assets/Course Library/Obstacles/Barrel_02.prefab
+    - Assets/Course Library/Obstacles/Barrel_02.prefab.meta
+    - Assets/Course Library/Obstacles/Crate_01.prefab
+    - Assets/Course Library/Obstacles/Crate_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prob_Rock_Boulder_01.prefab
+    - Assets/Course Library/Obstacles/Prob_Rock_Boulder_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier01.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier02.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier02.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier03.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier03.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Spool_02.prefab
+    - Assets/Course Library/Obstacles/Prop_Spool_02.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_StoneWall_01.prefab
+    - Assets/Course Library/Obstacles/Prop_StoneWall_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Tree_Log_02.prefab
+    - Assets/Course Library/Obstacles/Prop_Tree_Log_02.prefab.meta
+    - Assets/Course Library/Particles.meta
+    - Assets/Course Library/Particles/FX_DirtSplatter.prefab
+    - Assets/Course Library/Particles/FX_DirtSplatter.prefab.meta
+    - Assets/Course Library/Particles/FX_Explosion_Smoke.prefab
+    - Assets/Course Library/Particles/FX_Explosion_Smoke.prefab.meta
+    - Assets/Course Library/Sound.meta
+    - Assets/Course Library/Sound/Music.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg.meta
+    - Assets/Course Library/Sound/SFX.meta
+    - Assets/Course Library/Sound/SFX/crash1.wav
+    - Assets/Course Library/Sound/SFX/crash1.wav.meta
+    - Assets/Course Library/Sound/SFX/crash2.wav
+    - Assets/Course Library/Sound/SFX/crash2.wav.meta
+    - Assets/Course Library/Sound/SFX/crash3.wav
+    - Assets/Course Library/Sound/SFX/crash3.wav.meta
+    - Assets/Course Library/Sound/SFX/jump1.wav
+    - Assets/Course Library/Sound/SFX/jump1.wav.meta
+    - Assets/Course Library/Sound/SFX/jump2.wav
+    - Assets/Course Library/Sound/SFX/jump2.wav.meta
+    - Assets/Course Library/Sound/SFX/jump3.wav
+    - Assets/Course Library/Sound/SFX/jump3.wav.meta
+    - Assets/Course Library/_Source_Files.meta
+    - Assets/Course Library/_Source_Files/FBX.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask
+    - Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller
+    - Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx.meta
+    - Assets/Course Library/_Source_Files/Materials.meta
+    - Assets/Course Library/_Source_Files/Materials/FX_Base.mat
+    - Assets/Course Library/_Source_Files/Materials/FX_Base.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat
+    - Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat
+    - Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePort.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePort.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader
+    - Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader.meta
+    - Assets/Course Library/_Source_Files/Misc.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx
+    - Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx.meta
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta
+    - Assets/Course Library/_Source_Files/Textures.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_City.png
+    - Assets/Course Library/_Source_Files/Textures/Background_City.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_Nature.png
+    - Assets/Course Library/_Source_Files/Textures/Background_Nature.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_Town.png
+    - Assets/Course Library/_Source_Files/Textures/Background_Town.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Signs_00.png
+    - Assets/Course Library/_Source_Files/Textures/Signs_00.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePort.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePort.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Textures_Props.png
+    - Assets/Course Library/_Source_Files/Textures/Textures_Props.png.meta
+    - Assets/Course Library/_Source_Files/_LICENSE.txt
+    - Assets/Course Library/_Source_Files/_LICENSE.txt.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Prototype 3.unity
+    - Assets/Scenes/Prototype 3.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/prefabs.meta
+    - Assets/prefabs/Obstacle.prefab
+    - Assets/prefabs/Obstacle.prefab.meta
+    - Assets/script.meta
+    - Assets/script/MoveLeft.cs
+    - Assets/script/MoveLeft.cs.meta
+    - Assets/script/PlayerControls.cs
+    - Assets/script/PlayerControls.cs.meta
+    - Assets/script/RepeatBackground.cs
+    - Assets/script/RepeatBackground.cs.meta
+    - Assets/script/SpawnManager.cs
+    - Assets/script/SpawnManager.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
