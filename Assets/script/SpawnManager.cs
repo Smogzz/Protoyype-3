@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-        public GameObject Barrel_02Prefab;
-        private Vector3 spawnPos = new Vector3(8,0,0);
+        public GameObject BombPrefab;
+        private Vector3 spawnPos = new Vector3(20,9,1);
         private float startDelay = 2;
         private float repeatRate = 2;
         private PlayerControls playerControllerScript;
@@ -13,7 +13,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
-        playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControls>();
+        playerControllerScript = GameObject.Find("Player(1)").GetComponent<PlayerControls>();
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class SpawnManager : MonoBehaviour
     {
      if (playerControllerScript.gameOver == false)
     {
-        Instantiate(Barrel_02Prefab, spawnPos, Barrel_02Prefab.transform.rotation);
+        Instantiate(BombPrefab, spawnPos, BombPrefab.transform.rotation);
     }
     }
 }
